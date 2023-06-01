@@ -1,0 +1,14 @@
+.afk-navbar {
+    border-bottom: 2px solid var(--primary-color);
+    padding: 15px 0px;
+    background: var(--white-color) !important;
+}
+
+.afk-brand {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.afk-brand span {
+    color: var(--primary-color);
+}

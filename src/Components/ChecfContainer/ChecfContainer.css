@@ -1,0 +1,40 @@
+.checf-container {
+    margin-top: 24%;
+    margin-bottom: 130px;
+}
+
+.chef-card-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+
+.card {
+    border: 0;
+}
+
+.cardBody {
+    background-color: var(--primary-color);
+    border: 3px solid #FFFFFF;
+    color: var(--white-color);
+    margin-top: -35px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.cardBody:hover {
+    background-color: var(--white-color);
+    border-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.cardBody:hover .primaryBtn {
+    color: var(--text-color);
+    border-color: var(--text-color);
+}
+
+.cardBody .primaryBtn:hover {
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}

@@ -1,0 +1,23 @@
+.blog-section {
+    margin-bottom: 130px;
+}
+.blog-container {
+    background-color: var(--white-color);
+    margin: 50px 0px;
+}
+
+.blog-container p {
+    text-align: justify;
+}
+
+.readPDFNow {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.readPDFNow .primaryBtn{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: 0;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,47 @@
+.ask-caption {
+    bottom: 12rem;
+}
+
+.ask-caption h3{
+    color: rgb(255, 250, 250);
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ask-caption p {
+    font-size: 20px;
+}
+
+.ask-caption span {
+    color: var(--primary-color);
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.lgDeviceBtn {
+    margin-top: 45px;
+}
+
+.primaryBtn {
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 38px;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.primaryBtn:hover {
+    color: var(--white-color);
+    background-color: #e7272d;
+    border-color: #e7272d;
+    transition: all 0.3s ease 0s;
+}

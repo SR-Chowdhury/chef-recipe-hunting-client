@@ -1,0 +1,58 @@
+.single-chef-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.hrline {
+    border-top: 5px solid var(--primary-color);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: inline-flex;
+    float: none;
+    height: 2px;
+    margin-right: 17px;
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    width: 70px;
+}
+
+.chef-title {
+    color: #222;
+    font-size: 48px;
+    text-transform: capitalize;
+    line-height: 1;
+}
+
+.chef-position {
+    font-size: 16px;
+    color: #646464;
+}
+
+.chef-bio {
+    text-align: justify;
+}
+
+.social-div {
+    display: flex;
+    gap: 14px;
+}
+.single-icon {
+    border: 1px solid #646464;
+    margin-right: 15px;
+    padding: 10px;
+    transition: all 0.3s ease 0s;
+}
+.social-icon {
+    font-size: 24px;
+}
+
+.single-icon:hover {
+    color: var(--white-color);
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}

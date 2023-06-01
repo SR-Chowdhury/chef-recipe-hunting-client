@@ -1,0 +1,22 @@
+.banner-container {
+    background: url(https://radiustheme.com/demo/wordpress/redchili/wp-content/themes/redchili/assets/img/banner.jpg) no-repeat scroll center center / cover;
+    margin-top: 5%;
+    opacity: 0.9;
+}
+
+
+.banner-inner-container {
+    padding: 65px 0px;
+}
+
+.banner-title {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 48px;
+    color: #fff;
+    line-height: 1.2;
+}
+
+.banner-breadcumb {
+    color: #fff;
+}

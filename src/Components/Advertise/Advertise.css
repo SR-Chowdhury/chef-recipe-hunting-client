@@ -1,0 +1,46 @@
+.advertise-container {
+    position: relative;
+}
+
+.advertise-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+    top: 40px;
+    background: var(--white-color);
+}
+
+.single-div-logo {
+    background: rgba(0,0,0,0) url(https://radiustheme.com/demo/wordpress/redchili/wp-content/themes/redchili/assets/css/../img/about2-top-icon-back.png) no-repeat scroll center center;
+    height: 145px;
+    margin: 0 auto;
+    padding-top: 55px;
+    width: 145px;
+    text-align: center;
+}
+
+.single-div-icon {
+    color: rgb(12, 4, 1);
+    /* color: #cac1c1; */
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.single-div-icon:hover {
+    color: var(--primary-color);
+}
+
+.single-div-title h1{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.single-div-description p{
+    text-align: center;
+    line-height: 1.5;
+}

@@ -1,0 +1,62 @@
+.footer-top {
+    background-color: #151515;
+    color: #d7d7d7;
+}
+
+.footer-top-container {
+    padding: 100px 0px;
+    display: flex; 
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.footer-top-container-left {
+    width: 70%;
+}
+.footer-top-container-center {
+    width: 30%;
+}
+.footer-top-container-right {
+    width: 40%;
+}
+
+.footer-top-title {
+    font-size: 26px;
+    /* margin-bottom: 55px; */
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer-chef-description {
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+.footer-top-social-icon-div {
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.singleIcon {
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    padding: 6px 14px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.singleIcon:hover {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
+
+.footer-bottom {
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 20px 0px;
+}
+
+.footer-bottom p {
+    padding-top: 8px;
+}

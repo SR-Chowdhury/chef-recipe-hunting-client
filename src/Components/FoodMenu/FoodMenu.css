@@ -1,0 +1,29 @@
+.food-menu-section {
+    padding: 130px 0px;
+    background-color: #f8f8f8;
+}
+
+.food-menu-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+}
+
+.foodCard {
+    /* position: relative; */
+}
+
+.rating-div {
+    /* position: absolute;
+    bottom: 2px;
+    left: 20px; */
+    font-size: 30px;
+    color: orange;
+}
+
+
+.add-to-favorite {
+    font-size: 30px;
+}

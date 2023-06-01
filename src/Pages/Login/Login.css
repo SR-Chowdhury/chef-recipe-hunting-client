@@ -1,0 +1,15 @@
+.section-title-override {
+    margin-top: 15%;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    padding: 30px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-container .primaryBtn {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
